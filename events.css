@@ -1,0 +1,29 @@
+.article-section:first-child {
+  font-weight: bold;
+
+}
+
+.article-section:last-child {
+  font-weight: bold;
+  font-style: italic;
+}
+
+button {
+  display: block;
+}
+
+.blue {
+  color: blue;
+}
+
+.hulkify {
+  font-size:  10em;
+}
+
+.capture {
+  border: 1px solid black;
+}
+
+.rounded {
+  border-radius: 50%;
+}
