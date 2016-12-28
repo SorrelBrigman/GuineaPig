@@ -43,27 +43,27 @@ document.querySelector("#keypress-input").addEventListener("keyup", mirror);
 
 // When you click the "Add color" button, the guinea-pig element's text color should change to blue.
 var turnBlue = function() {
-  document.querySelector("#guinea-pig").classList = "blue";
+  document.querySelector("#guinea-pig").classList.toggle("blue");
 }
 
 
 document.querySelector("#add-color").addEventListener("click", turnBlue);
 // When you click the "Hulkify" button, the guinea-pig element's font size should become much larger.
 var larger = function() {
-  document.querySelector("#guinea-pig").classList = "hulkify";
+  document.querySelector("#guinea-pig").classList.toggle("hulkify");
 }
 
 document.querySelector("#make-large").addEventListener("click", larger);
 // When you click the "Capture it" button, the guinea-pig element should have a border added to it.
 var border = function() {
-  document.querySelector("#guinea-pig").classList = "capture";
+  document.querySelector("#guinea-pig").classList.toggle("capture");
 }
 
 
 document.querySelector("#add-border").addEventListener("click", border);
 // When you click the "Rounded" button, the guinea-pig element's border should become rounded.
 var rounded = function() {
-  document.querySelector("#guinea-pig").classList = "rounded";
+  document.querySelector("#guinea-pig").classList.toggle("rounded");
 }
 
 
